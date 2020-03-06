@@ -4,7 +4,7 @@
 
 
 
-![HUAWEI (https://tva1.sinaimg.cn/large/00831rSTly1gckahotaq1g305k09t45z.gif)](/Users/wislie/Desktop/HUAWEI (1).gif)
+![hwcharging](https://tva1.sinaimg.cn/large/00831rSTly1gckalengy1g305k09t45z.gif)
 
 主要分3个小块: 发射器, 气泡, 圆环
 
