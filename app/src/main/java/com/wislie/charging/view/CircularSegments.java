@@ -76,8 +76,7 @@ public class CircularSegments {
     static class CircularSegmentsBuilder extends Builder<CircularSegmentsBuilder> {
         /*** 随机Random */
         private Random rd;
-        /*** path系数 */
-        private float lineSmoothness;
+
         /*** 圆环片段最小角度 */
         private int minAngle;
         /*** 偏移增大率 */
@@ -101,11 +100,6 @@ public class CircularSegments {
 
         public CircularSegmentsBuilder setRd(Random rd) {
             this.rd = rd;
-            return this;
-        }
-
-        public CircularSegmentsBuilder setLineSmoothness(float lineSmoothness) {
-            this.lineSmoothness = lineSmoothness;
             return this;
         }
 

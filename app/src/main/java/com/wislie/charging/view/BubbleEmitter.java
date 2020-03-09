@@ -37,14 +37,6 @@ public class BubbleEmitter {
 
     static class EmitterBuilder extends Builder<EmitterBuilder> {
 
-        /*** path系数 */
-        private float lineSmoothness;
-
-        public EmitterBuilder setLineSmoothness(float lineSmoothness) {
-            this.lineSmoothness = lineSmoothness;
-            return this;
-        }
-
         @Override
         public BubbleEmitter build() {
             return new BubbleEmitter(this);

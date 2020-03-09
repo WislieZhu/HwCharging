@@ -169,7 +169,16 @@ public class ChargingHelper {
         }
     }
 
-
+    /**
+     * 生成2个点
+     * @param centerX
+     * @param centerY
+     * @param angle
+     * @param cosSideLength
+     * @param sinSideLength
+     * @param isYAdd
+     * @return
+     */
     public static PointF[] generatePoints(float centerX, float centerY, double angle, double cosSideLength, double sinSideLength, boolean isYAdd){
         double rad = DegreeUtil.getCoordinateRadians(cosSideLength, sinSideLength);
         double degree = DegreeUtil.toDegrees(rad);

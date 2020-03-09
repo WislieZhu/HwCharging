@@ -102,8 +102,6 @@ public class BubbleController {
 
         private Random rd;
 
-        /*** path系数 */
-        private float lineSmoothness;
         /*** 气泡的最小半径 */
         private float minBubbleRadius;
         /*** 气泡的最大半径 */
@@ -128,11 +126,6 @@ public class BubbleController {
         private double emitterCenterY;
         /*** 发射器半径 */
         private float emitterRadius;
-
-        public BubbleControllerBuilder setLineSmoothness(float lineSmoothness) {
-            this.lineSmoothness = lineSmoothness;
-            return this;
-        }
 
         public BubbleControllerBuilder setMinBubbleRadius(float minBubbleRadius) {
             this.minBubbleRadius = minBubbleRadius;

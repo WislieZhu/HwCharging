@@ -141,8 +141,6 @@ public class CircularSeg {
         private float rotateRadio;
         /*** 偏移增大率 */
         private float offsetRadio;
-        /*** path系数 */
-        private float lineSmoothness;
 
         public CircularSegBuilder setAlphaRadio(int alphaRadio) {
             this.alphaRadio = alphaRadio;
@@ -186,11 +184,6 @@ public class CircularSeg {
 
         public CircularSegBuilder setOffsetRadio(float offsetRadio) {
             this.offsetRadio = offsetRadio;
-            return this;
-        }
-
-        public CircularSegBuilder setLineSmoothness(float lineSmoothness) {
-            this.lineSmoothness = lineSmoothness;
             return this;
         }
 
